@@ -12,7 +12,7 @@ export ROSCONSOLE_FORMAT='[${severity}] [${time}] [${node}] [${logger}]: ${messa
 failed-to-fetch-binary-armhf-packages-error-
 ```sudo dpkg --remove-architecture armhf```
 
-
+ssh agilex sudo date -s @$(date -u +"%s")
 
 # IPs
 scan for IPs in network: ```sudo nmap -sn 10.145.8.0/24```
